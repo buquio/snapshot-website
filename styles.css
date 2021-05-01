@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Rubik', sans-serif;
+    font-size: 16px;
+    color: #bcc3c7;
+
+}
+
+.container{
+    background-color:white ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#304353;
+    width: 100vw;
+    padding: 20px;
+}
+
+.logo{
+    color:#bcc3c7;
+    font-size: 25px;
+}
+
+.toogle-icon{
+    color: #bcc3c7;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.nav-links li{
+    list-style: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color:#bcc3c7;
+    padding: 16px;
+
+}
+.nav-links a:hover{
+    color: #304353;
+    background-color: #fff;
+    padding: 8px;
+
+}
+
+.intro-section{
+    text-align: center;
+    background-color:#304353;
+    padding: 60px 30px;
+}
+.intro-title{
+    margin-bottom: 30px;
+}
+
+.intro-title h3{
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.intro-title p{
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 300;
+}
+.intro-btn{
+margin: 20px;
+}
+
+.intro-btn a{
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #E44C65;
+    letter-spacing: 2px;
+    color:#bcc3c7 ;
+    text-decoration: none;
+}
+
+.background-section{
+    background-color: #f0f0f0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.background-title{
+    width: 70%;
+    height: 250px;
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+    border: 2px solid #bcc3c7;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+
+.background-title h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.background-title p{
+letter-spacing: 2px;
+font-size: 16px;
+padding:30px 50px;
+
+}
+.background-pos{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 2px solid #bcc3c7;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    position: absolute;
+    right: 0;
+    left: 78%;
+}
+
+/* snapshot-section  */
+.snapshot-section{
+    background: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+
+}
+.snapshot-title{
+    margin: 20px;
+
+}
+
+.snapshot-title h3{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+    letter-spacing: 2px;
+
+}
+
+.snapshot-title p{
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+ .snapshot-box-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 4rem 6rem;
+ }
+ .snapshot-box-content{
+    display: flex;
+    justify-content: space-between;
+ }
+
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #bcc3c7;
+   box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+   background: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 2px;
+
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #bcc3c7;
+   box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+   background: #304353;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.circle{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background: #bcc3c7;
+    margin-top: 20px;
+
+}
+
+.box1 h3, .box3 h3{
+    padding-top: 20px;
+    color:#E44C65;
+
+}
+
+/* gallery section  */
+.gallery-section{}
+.gallery-title{}
+.gallery-title h3{}
+.gallery-title p{}
+.gallery-image-wrapper{}
+.gallery-image-box{}
+
+.footer-section{}
+.footer-title{}
+.footer-title h3{}
+.footer-title p{}
+.footer-input{}
+.footer-textarea{}
+.footer-btn{}
+
+h6{}
