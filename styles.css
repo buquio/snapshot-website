@@ -22,15 +22,17 @@ container background - white
 
 
 .container{
-    background-color:white ;
+    background-color: #fff;
 }
 
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color:#304353;
     width: 100vw;
-    padding: 20px;
+    padding: 20px 90px;
+    border-bottom: .5px solid #bcc3c7;
 }
 
 .logo{
@@ -38,7 +40,8 @@ header{
     font-size: 25px;
 }
 
-.toogle-icon{
+.toggle-icon{
+    display: none;
     color: #bcc3c7;
     font-size: 25px;
     cursor: pointer;
@@ -75,7 +78,7 @@ header{
 .intro-section{
     text-align: center;
     background-color:#304353;
-    padding: 60px 30px;
+    padding: 160px;
 }
 .intro-title{
     margin-bottom: 30px;
@@ -93,13 +96,13 @@ header{
 }
 .intro-title p{
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 16px;
     padding-top: 10px;
     font-weight: 300;
     
 }
 .intro-btn{
-margin: 20px;
+margin-top: 50px;
 }
 
 .intro-btn a{
@@ -116,7 +119,8 @@ margin: 20px;
 
 /* background section */
 .background-section{
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
+    background-color: #bcc3c7;
     padding: 150px;
     display: flex;
     justify-content: center;
@@ -131,6 +135,8 @@ margin: 20px;
     border: 2px solid #bcc3c7;
     box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
     position: relative;
+    background: #fff;
+
 
 }
 
@@ -153,6 +159,7 @@ padding-right: 50px;
 .background-pos{
     width: 140px;
     height: 140px;
+    background: #fff;
     border-radius: 50%;
     border: 2px solid #bcc3c7;
     box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
@@ -192,7 +199,7 @@ padding-right: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f0f0f0;
+    /* background: #f0f0f0; */
     padding: 4rem 6rem;
  }
  .snapshot-box-content{
